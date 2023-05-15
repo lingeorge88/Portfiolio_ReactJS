@@ -20,37 +20,49 @@ const Portfolio = () => {
             id: 1,
             src: Techtopia,
             demoUrl:'https://salty-escarpment-75957.herokuapp.com/',
-            codeUrl: 'https://github.com/lingeorge88/Tech_topia_MVC'
+            codeUrl: 'https://github.com/lingeorge88/Tech_topia_MVC',
+            title: "TechTopia",
+            description: 'A tech blog utilizing NodeJS, ExpressJS and the Sequelize Package'
         },
         {
             id: 2,
             src: WeatherApp,
             demoUrl:'https://lingeorge88.github.io/5-day-weather-forecast/',
-            codeUrl:'https://github.com/lingeorge88/5-day-weather-forecast'
+            codeUrl:'https://github.com/lingeorge88/5-day-weather-forecast',
+            title: '5 Day Weather Forecast',
+            description: "A 5-day weather forecast application utilizing HTML, CSS, Bootstrap, Javascript and the OpenWeatherMap API"
         },
         {
             id: 3,
             src: CrimeTracker,
             demoUrl:'https://jgerona.github.io/crime-tracker/',
-            codeUrl:'https://github.com/jgerona/crime-tracker'
+            codeUrl:'https://github.com/jgerona/crime-tracker',
+            title: "Crime Tracker",
+            description: "A crime tracker tool utilizing the Crime Data by Zipcode API, Zippopotam.us API and Bulma CSS"
         },
         {
             id: 4,
             src: JobstacleCourse,
             demoUrl:'https://jobstacle-course.herokuapp.com/',
-            codeUrl:'https://github.com/chewytaro/Jobstacle-course'
+            codeUrl:'https://github.com/chewytaro/Jobstacle-course',
+            title: "Jobstacle Course",
+            description:'An application tracking tool utilizing the HandlebarsExpressJS package.  Databse queries performed by MySQL and Sequlize'
         },
         {
             id: 5,
             src: NoteTaker,
             demoUrl:'https://notetaker1stbuild.herokuapp.com/',
-            codeUrl:'https://github.com/lingeorge88/NoteTaker_expressJS'
+            codeUrl:'https://github.com/lingeorge88/NoteTaker_expressJS',
+            title: "NoteTaker ExpressJS",
+            description: "A note taking application built with ExpressJS and Bootstrap and deployed with Heroku"
         },
         {
             id: 6,
             src: SocialAPI,
             demoUrl:'https://github.com/lingeorge88/SocialMedia_API_NoSQL',
-            codeUrl:'https://github.com/lingeorge88/SocialMedia_API_NoSQL'
+            codeUrl:'https://github.com/lingeorge88/SocialMedia_API_NoSQL',
+            title: 'MongoConnectFriends',
+            description:'A REST API built with MongoDB and the Mongoose Express Package'
         },
     ]
     function handleDemoClick(demoUrl) {
@@ -69,10 +81,12 @@ const Portfolio = () => {
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
         {
-            portfolios.map(({id, src, demoUrl, codeUrl}) =>(
+            portfolios.map(({id, src, demoUrl, codeUrl,title,description}) =>(
                 
-            <div key={id} className='shadow-md shadow-purple-500 rounded-lg'>
-                <img src={src} alt="" className='rounded-md duration-200 hover:scale-105'/>
+            <div key={id} className='shadow-md shadow-purple-500 rounded-lg duration-200 hover:scale-105'>
+                <h2 className="text-xl text-center font-bold shadow-md shadow-indigo-500">{title}</h2>
+            <p className='text-sm m-2'>{description}</p>
+                <img src={src} alt="" className='rounded-md '/>
                 <div className='flex item-center justify-center'>
                     <button className='w-1/2 px6 py-3 m-4 duration-200 hover:scale-105' onClick={() => handleDemoClick(demoUrl)}>Demo</button>
                     <button className='w-1/2 px6 py-3 m-4 duration-200 hover:scale-105' onClick={() => handleCodeClick(codeUrl)}>Code</button>
