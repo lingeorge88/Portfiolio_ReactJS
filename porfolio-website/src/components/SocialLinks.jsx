@@ -23,7 +23,7 @@ const SocialLinks = () => {
                     </>
             ),
             href:'https://github.com/lingeorge88',
-            
+
         },
         {
             id: 3,
@@ -32,7 +32,6 @@ const SocialLinks = () => {
                     </>
             ),
             href:'resume.pdf',
-            style: 'rounded-tr-md',
             download: true,
         },
         {
@@ -42,7 +41,7 @@ const SocialLinks = () => {
                     </>
             ),
             href:'mailto:lingeorge04@gmail.com ',
-            style: 'rounded-tr-md'
+            
         },
     ]
 
