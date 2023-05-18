@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/lingeorge88/Portfiolio_ReactJS/static/css/main.bbed4c0b.css",
+    "main.js": "/lingeorge88/Portfiolio_ReactJS/static/js/main.d0b9df23.js",
+    "static/media/heroimage.png": "/lingeorge88/Portfiolio_ReactJS/static/media/heroimage.0698509eb9646192548c.png",
+    "static/media/CrimeTracker.png": "/lingeorge88/Portfiolio_ReactJS/static/media/CrimeTracker.4e0a24738c75564f02ae.png",
+    "static/media/Techtopia.png": "/lingeorge88/Portfiolio_ReactJS/static/media/Techtopia.ce17385d7c9282612a83.png",
+    "static/media/SocialAPI.png": "/lingeorge88/Portfiolio_ReactJS/static/media/SocialAPI.e8f582f350a084cbc266.png",
+    "static/media/react.png": "/lingeorge88/Portfiolio_ReactJS/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/WeatherApp.png": "/lingeorge88/Portfiolio_ReactJS/static/media/WeatherApp.534ee9225a78956f9a0a.png",
+    "static/media/node.png": "/lingeorge88/Portfiolio_ReactJS/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/github.png": "/lingeorge88/Portfiolio_ReactJS/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/JobstacleCourse.png": "/lingeorge88/Portfiolio_ReactJS/static/media/JobstacleCourse.f4de2ee0628a6e3c9adc.png",
+    "static/media/html.png": "/lingeorge88/Portfiolio_ReactJS/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/lingeorge88/Portfiolio_ReactJS/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/lingeorge88/Portfiolio_ReactJS/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/lingeorge88/Portfiolio_ReactJS/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/lingeorge88/Portfiolio_ReactJS/index.html",
+    "main.bbed4c0b.css.map": "/lingeorge88/Portfiolio_ReactJS/static/css/main.bbed4c0b.css.map",
+    "main.d0b9df23.js.map": "/lingeorge88/Portfiolio_ReactJS/static/js/main.d0b9df23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbed4c0b.css",
+    "static/js/main.d0b9df23.js"
+  ]
+}
