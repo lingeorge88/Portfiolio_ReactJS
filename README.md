@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Portfolio Website - ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is a personal portfolio website built with ReactJS and Tailwind CSS
 
-In the project directory, you can run:
+![portfolio demo](./images/React%20App.gif)
 
-### `npm start`
+## Dependencies
+* ReactJS framework : (https://react.dev/learn)
+* Icon images through React-icons : (https://www.npmjs.com/package/react-icons)
+* Styling by Tailwind CSS: (https://tailwindcss.com/docs/installation)
+* Deployment by Github pages: (https://github.com/gitname/react-gh-pages)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
+### Installing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Requires A functional computer or movile device that has a web browser that supports HTML5 (ex. Google Chrome, Mozilla Firefox, etc.)
+* No additional installation is required if a modern web browser is already installed. 
 
-### `npm test`
+### Executing program
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* View the website at the following URL: https://lingeorge88.github.io/Portfiolio_ReactJS/
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Help
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Please contact me through the links in the following section if issues are encountered when opening or viewing the webpage.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Authors
 
-### `npm run eject`
+George Lin
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ * [E-mail](lingeorge04@gmail.com)
+* [Github](https://github.com/lingeorge88)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Version History
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* 0.1
+    * Initial Release - created responsive layout and all basic functionalities of the website including but not limited to :(nav bar, footer, responsive icons for social media links, etc.)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+N/A
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
