@@ -73,7 +73,7 @@ const skills =[
 ]
 
   return (
-    <div name='skills' className='font-default text-base bg-gradient-to-b from-gray-800 to to-black w-full h-screen'>
+    <div name='skills' className='h-130vh sm:h-screen font-default text-base bg-gradient-to-b from-gray-800 to to-black w-full'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div>
                 <p className='text-4xl font-bold border-b-4 border-indigo-500 p-2 inline'>Skills</p>
