@@ -11,6 +11,7 @@ import CrimeTracker from '../assets/portfolio/CrimeTracker.png';
 import JobstacleCourse from '../assets/portfolio/JobstacleCourse.png';
 import NoteTaker from '../assets/portfolio/NoteTaker.png';
 import SocialAPI from '../assets/portfolio/SocialAPI.png';
+import PokeTrader from '../assets/portfolio/PokeTrader.png';
 
 
 const Portfolio = () => {
@@ -50,11 +51,11 @@ const Portfolio = () => {
         },
         {
             id: 5,
-            src: NoteTaker,
-            demoUrl:'https://notetaker1stbuild.herokuapp.com/',
-            codeUrl:'https://github.com/lingeorge88/NoteTaker_expressJS',
-            title: "NoteTaker ExpressJS",
-            description: "A note taking application built with ExpressJS and Bootstrap and deployed with Heroku"
+            src: PokeTrader,
+            demoUrl:'https://poketraderv1.herokuapp.com/',
+            codeUrl:'https://github.com/lingeorge88/Poke_Trader',
+            title: "Poké Trader",
+            description: "A full stack MERN application that allows Pokemon TCG enthusiasts to connect and trade their card collections with others"
         },
         {
             id: 6,
