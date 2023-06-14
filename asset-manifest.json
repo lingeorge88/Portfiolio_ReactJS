@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/Portfiolio_ReactJS/static/css/main.10fd5206.css",
-    "main.js": "/Portfiolio_ReactJS/static/js/main.fcb57480.js",
+    "main.js": "/Portfiolio_ReactJS/static/js/main.73453e6d.js",
+    "static/media/PokeTrader.png": "/Portfiolio_ReactJS/static/media/PokeTrader.08f49bed8434a568b163.png",
     "static/media/heroimage.png": "/Portfiolio_ReactJS/static/media/heroimage.0698509eb9646192548c.png",
     "static/media/CrimeTracker.png": "/Portfiolio_ReactJS/static/media/CrimeTracker.4e0a24738c75564f02ae.png",
     "static/media/Techtopia.png": "/Portfiolio_ReactJS/static/media/Techtopia.ce17385d7c9282612a83.png",
@@ -17,10 +18,10 @@
     "static/media/javascript.png": "/Portfiolio_ReactJS/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfiolio_ReactJS/index.html",
     "main.10fd5206.css.map": "/Portfiolio_ReactJS/static/css/main.10fd5206.css.map",
-    "main.fcb57480.js.map": "/Portfiolio_ReactJS/static/js/main.fcb57480.js.map"
+    "main.73453e6d.js.map": "/Portfiolio_ReactJS/static/js/main.73453e6d.js.map"
   },
   "entrypoints": [
     "static/css/main.10fd5206.css",
-    "static/js/main.fcb57480.js"
+    "static/js/main.73453e6d.js"
   ]
 }
