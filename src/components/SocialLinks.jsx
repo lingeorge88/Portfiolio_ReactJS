@@ -31,7 +31,7 @@ const SocialLinks = () => {
                 <>Resume<BsPersonVcard size={30}/>
                     </>
             ),
-            href:'resume.pdf',
+            href:'GLinResume.pdf',
             download: true,
         },
         {

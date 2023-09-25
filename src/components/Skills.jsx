@@ -6,9 +6,9 @@ import javascript from '../assets/javascript.png';
 import node from '../assets/node.png';
 import react from '../assets/react.png';
 import tailwind from '../assets/tailwind.png';
-import mongoDB from '../assets/mongoDB.png';
 import github from '../assets/github.png';
-import expressJS from '../assets/expressjs.jpg'
+import expressJS from '../assets/expressjs.jpg';
+import graphQL from '../assets/graphql.png';
 
 
 
@@ -35,16 +35,11 @@ const skills =[
     },
     {
         id: 4,
-        src: node,
-        title: 'NodeJS',
-        style: 'shadow-green-500',
-    },
-    {
-        id: 5,
         src: react,
         title: 'ReactJS',
         style: 'shadow-blue-600',
     },
+    
     {
         id: 6,
         src: tailwind,
@@ -53,9 +48,9 @@ const skills =[
     },
     {
         id: 7,
-        src: mongoDB,
-        title: 'MongoDB',
-        style: 'shadow-white',
+        src: graphQL,
+        title: 'GraphQL',
+        style: 'shadow-pink-400',
     },
     {
         id: 8,
@@ -64,10 +59,16 @@ const skills =[
         style: 'shadow-gray-500',
     },
     {
+        id: 5,
+        src: node,
+        title: 'NodeJS',
+        style: 'shadow-green-500',
+    },
+    {
         id: 9,
         src: expressJS,
         title: 'ExpressJS',
-        style: 'shadow-pink-400',
+        style: 'shadow-white',
     },
 
 ]
@@ -76,7 +77,7 @@ const skills =[
     <div name='skills' className='h-130vh sm:h-screen font-default text-base bg-gradient-to-b from-gray-800 to to-black w-full'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div>
-                <p className='text-4xl font-bold border-b-4 border-indigo-500 p-2 inline'>Skills</p>
+                <p className='text-4xl font-bold border-b-4 border-indigo-500 p-2 inline'>💻 Skills</p>
                 <p className='py-6'>These are the technologies I have worked with! For more details, click the icon to the left for a copy of my resume!</p>
                 </div>
 
