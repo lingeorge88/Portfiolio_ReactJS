@@ -30,8 +30,8 @@ const Portfolio = () => {
         {
             id: 3,
             src: PortfolioRJS,
-            demoUrl: '',
-            codeUrl:'',
+            demoUrl: 'https://lingeorge88.github.io/Portfiolio_ReactJS/',
+            codeUrl:'https://github.com/lingeorge88/Portfiolio_ReactJS',
             title: 'Portfolio website',
             description:'A modern single page web application built with ReactJS, TailwindCSS and React Scroll to display my skills and projects'
         },
