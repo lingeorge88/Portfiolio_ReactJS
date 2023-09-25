@@ -9,7 +9,7 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-purple-500'> ✨About Me✨</p>
             </div>
             <p className='text-xl mt-20 font-light'>
-            Hello! Welcome to my portfolio page! My name is George, I am a web developer with a background in Medical Laboratory Science. Working as a Medical Laboratory Scientist has helped prepare me for what is required and useful in software development. Working in a high-volume reference laboratory has helped me develop excellent attention-to-detail skills while working efficiently to ensure targeted turnaround times for patient results.
+            Hello! Welcome to my portfolio page! My name is George, I am a web developer with a background in Medical Laboratory Science. Working as a Medical Laboratory Scientist has helped me develop excellent attention-to-detail skills while working efficiently to ensure targeted turnaround times for patient results. I am excited to carry these skills into the field of software development. 
             </p>
             <br />
             <p className='text-xl font-light'>
