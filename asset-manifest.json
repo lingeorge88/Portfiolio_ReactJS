@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfiolio_ReactJS/static/css/main.10fd5206.css",
-    "main.js": "/Portfiolio_ReactJS/static/js/main.73453e6d.js",
+    "main.css": "/Portfiolio_ReactJS/static/css/main.b90f9237.css",
+    "main.js": "/Portfiolio_ReactJS/static/js/main.f31f92b2.js",
     "static/media/PokeTrader.png": "/Portfiolio_ReactJS/static/media/PokeTrader.08f49bed8434a568b163.png",
+    "static/media/Bookworms.png": "/Portfiolio_ReactJS/static/media/Bookworms.6f04546d41b097fc80ba.png",
+    "static/media/PortfolioReactJS.png": "/Portfiolio_ReactJS/static/media/PortfolioReactJS.a7de6071121782454b0e.png",
     "static/media/heroimage.png": "/Portfiolio_ReactJS/static/media/heroimage.0698509eb9646192548c.png",
-    "static/media/CrimeTracker.png": "/Portfiolio_ReactJS/static/media/CrimeTracker.4e0a24738c75564f02ae.png",
-    "static/media/Techtopia.png": "/Portfiolio_ReactJS/static/media/Techtopia.ce17385d7c9282612a83.png",
+    "static/media/RetroRush.png": "/Portfiolio_ReactJS/static/media/RetroRush.2437973774c2323f1218.png",
+    "static/media/graphql.png": "/Portfiolio_ReactJS/static/media/graphql.fc6b9451733c620ceb86.png",
     "static/media/SocialAPI.png": "/Portfiolio_ReactJS/static/media/SocialAPI.e8f582f350a084cbc266.png",
     "static/media/react.png": "/Portfiolio_ReactJS/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/WeatherApp.png": "/Portfiolio_ReactJS/static/media/WeatherApp.534ee9225a78956f9a0a.png",
     "static/media/node.png": "/Portfiolio_ReactJS/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/github.png": "/Portfiolio_ReactJS/static/media/github.3b9e32903aa89111875d.png",
-    "static/media/JobstacleCourse.png": "/Portfiolio_ReactJS/static/media/JobstacleCourse.f4de2ee0628a6e3c9adc.png",
     "static/media/html.png": "/Portfiolio_ReactJS/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/Portfiolio_ReactJS/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/Portfiolio_ReactJS/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/Portfiolio_ReactJS/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfiolio_ReactJS/index.html",
-    "main.10fd5206.css.map": "/Portfiolio_ReactJS/static/css/main.10fd5206.css.map",
-    "main.73453e6d.js.map": "/Portfiolio_ReactJS/static/js/main.73453e6d.js.map"
+    "main.b90f9237.css.map": "/Portfiolio_ReactJS/static/css/main.b90f9237.css.map",
+    "main.f31f92b2.js.map": "/Portfiolio_ReactJS/static/js/main.f31f92b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.10fd5206.css",
-    "static/js/main.73453e6d.js"
+    "static/css/main.b90f9237.css",
+    "static/js/main.f31f92b2.js"
   ]
 }
