@@ -2,13 +2,20 @@ import React from 'react';
 import HeroImage from '../assets/heroimage.png';
 import { TiArrowRightOutline}from "react-icons/ti";
 import { Link } from 'react-scroll';
+import BigBangStarField from 'react-big-bang-star-field';
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white'>
+    <div name="home" className=' h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white' >
+        <BigBangStarField numStars={200} maxStarSpeed={1} scale={2} style={{
+            position: 'absolute',
+            width: '100%',
+            height: '100%',
+            pointerEvents: 'none'
+          }} className='absolute w-full h-full' starColor={"251, 182, 242"}/>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h5 className='font-default text-sm sm:text-xl'>👋 Hi, my name is</h5>
+                <h5 className='font-default mt-8 text-sm sm:text-xl'>👋 Hi, my name is</h5>
                 <h3 className='font-default text-2xl sm:text-7xl font-bold italic'>George Lin</h3>
                 <p className='font-default text-white py-4 max-w-md text-base font-light mr-8'>
                     I am a Software Developer from Seattle, Washington. 
@@ -28,6 +35,7 @@ const Home = () => {
             </div>
         </div>
     </div>
+    
   )
 }
 

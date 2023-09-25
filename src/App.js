@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import SocialLinks from "./components/SocialLinks";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <div className="text-4xl font-bold font-signature">
