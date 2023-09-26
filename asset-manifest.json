@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfiolio_ReactJS/static/css/main.11894ce0.css",
+    "main.css": "/Portfiolio_ReactJS/static/css/main.78f9e614.css",
     "main.js": "/Portfiolio_ReactJS/static/js/main.209c634d.js",
     "static/media/PokeTrader.png": "/Portfiolio_ReactJS/static/media/PokeTrader.08f49bed8434a568b163.png",
     "static/media/Bookworms.png": "/Portfiolio_ReactJS/static/media/Bookworms.6f04546d41b097fc80ba.png",
@@ -18,11 +18,11 @@
     "static/media/css.png": "/Portfiolio_ReactJS/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/Portfiolio_ReactJS/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfiolio_ReactJS/index.html",
-    "main.11894ce0.css.map": "/Portfiolio_ReactJS/static/css/main.11894ce0.css.map",
+    "main.78f9e614.css.map": "/Portfiolio_ReactJS/static/css/main.78f9e614.css.map",
     "main.209c634d.js.map": "/Portfiolio_ReactJS/static/js/main.209c634d.js.map"
   },
   "entrypoints": [
-    "static/css/main.11894ce0.css",
+    "static/css/main.78f9e614.css",
     "static/js/main.209c634d.js"
   ]
 }
