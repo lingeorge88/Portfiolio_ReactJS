@@ -1,8 +1,8 @@
-import React from 'react'
+import {FC} from 'react'
 
-const About = () => {
+const About: FC = () => {
   return (
-    <div data-testid="about-container" name="about" className='h-130vh font-default text-base font-medium w-full sm:h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
+    <div data-testid="about-container" data-name="about" className='h-130vh font-default text-base font-medium w-full sm:h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
         
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>

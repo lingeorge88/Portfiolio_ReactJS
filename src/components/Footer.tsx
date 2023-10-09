@@ -1,8 +1,8 @@
-import React from 'react';
+import {FC} from 'react';
 import { RxLinkedinLogo } from 'react-icons/rx';
 import { SlSocialGithub, SlSocialYoutube} from 'react-icons/sl';
 
-const Footer = () => {
+const Footer:FC = () => {
 
     const links =[
         {
@@ -31,7 +31,7 @@ const Footer = () => {
     ]
 
     return (
-        <div name="footer" className="flex text-bold text-base w-full h-20 bg-gray-900 text-white justify-center items-center">
+        <div data-name="footer" className="flex text-bold text-base w-full h-20 bg-gray-900 text-white justify-center items-center">
           <div>
             <h2 className="text-2xl">© George Lin 2023</h2>
           </div>
