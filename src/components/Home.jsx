@@ -1,14 +1,12 @@
-import React from 'react';
 import HeroImage from '../assets/heroimage.jpg';
 import { TiArrowRightOutline}from "react-icons/ti";
 import { Link } from 'react-scroll';
 import BigBangStarField from 'react-big-bang-star-field';
 
-
-const Home = () => {
+const Home= () => {
   return (
-        <main name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white'>
-          <BigBangStarField 
+        <main id="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white'>
+          <BigBangStarField
             numStars={200} 
             maxStarSpeed={1} 
             scale={2} 
@@ -18,8 +16,8 @@ const Home = () => {
               height: '100%',
               pointerEvents: 'none'
             }} 
-            className='absolute w-full h-full' 
             starColor={"251, 182, 242"} 
+            className='absolute w-full h-full' 
           />
           <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <header className='flex flex-col justify-center h-full mt-8'>
