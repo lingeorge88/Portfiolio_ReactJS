@@ -1,4 +1,4 @@
-import React from 'react';
+import {FC} from 'react';
 import html from '../assets/html.png';
 import css from '../assets/css.png';
 import javascript from '../assets/javascript.png';
@@ -11,7 +11,7 @@ import graphQL from '../assets/graphql.png';
 
 
 
-const Skills = () => {
+const Skills :FC = () => {
 
 const skills =[
     {
@@ -72,27 +72,29 @@ const skills =[
 
 ]
 
-  return (
-    <div name='skills' className='h-130vh sm:h-screen font-default text-base bg-gradient-to-b from-gray-800 to to-black w-full'>
+return (
+    <section id='skills' className='h-130vh sm:h-screen font-default text-base bg-gradient-to-b from-gray-800 to to-black w-full'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
-            <div>
-                <p className='text-4xl font-bold border-b-4 border-indigo-500 p-2 inline'>💻 Skills</p>
-                <p className='py-6'>These are the technologies I have worked with! For more details, click the icon to the left for a copy of my resume!</p>
-                </div>
-
-                <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
-
-        {
-            skills.map(({id, src, title, style}) => (
-                <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                        <img src={src} alt=""  className='w-20 mx-auto'/>
-                        <p className='mt-4'>{title}</p>
-                    </div>
-            ))}
+            <header>
+                <h1 className='text-4xl font-bold border-b-4 border-indigo-500 p-2 inline'>💻 Skills</h1>
+                <p className='py-6'>
+                    These are the technologies I have worked with! For more details, 
+                    click the icon to the left for a copy of my resume!
+                </p>
+            </header>
+            <ul className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+                {
+                    skills.map(({ id, src, title, style }) => (
+                        <li key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+                            <img src={src} alt={title} className='w-20 mx-auto' />
+                            <p className='mt-4'>{title}</p>
+                        </li>
+                    ))
+                }
+            </ul>
         </div>
-        </div>
-    </div>
-  )
+    </section>
+)
 }
 
 export default Skills
