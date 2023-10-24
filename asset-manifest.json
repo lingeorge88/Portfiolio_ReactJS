@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfiolio_ReactJS/static/css/main.ad478639.css",
-    "main.js": "/Portfiolio_ReactJS/static/js/main.51a8a200.js",
+    "main.css": "/Portfiolio_ReactJS/static/css/main.5b5d73d1.css",
+    "main.js": "/Portfiolio_ReactJS/static/js/main.221bb29b.js",
     "static/media/PokeTrader.png": "/Portfiolio_ReactJS/static/media/PokeTrader.08f49bed8434a568b163.png",
     "static/media/Bookworms.png": "/Portfiolio_ReactJS/static/media/Bookworms.6f04546d41b097fc80ba.png",
     "static/media/heroimage.jpg": "/Portfiolio_ReactJS/static/media/heroimage.5b46b5be543d7deba21f.jpg",
@@ -18,11 +18,11 @@
     "static/media/css.png": "/Portfiolio_ReactJS/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/Portfiolio_ReactJS/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfiolio_ReactJS/index.html",
-    "main.ad478639.css.map": "/Portfiolio_ReactJS/static/css/main.ad478639.css.map",
-    "main.51a8a200.js.map": "/Portfiolio_ReactJS/static/js/main.51a8a200.js.map"
+    "main.5b5d73d1.css.map": "/Portfiolio_ReactJS/static/css/main.5b5d73d1.css.map",
+    "main.221bb29b.js.map": "/Portfiolio_ReactJS/static/js/main.221bb29b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad478639.css",
-    "static/js/main.51a8a200.js"
+    "static/css/main.5b5d73d1.css",
+    "static/js/main.221bb29b.js"
   ]
 }
